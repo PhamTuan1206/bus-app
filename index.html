@@ -27,7 +27,7 @@
 
     <section class="search-card">
         <div><label>Điểm đi</label>
-            <select>
+            <select id="departure-select">
                 <option>Hà Nội</option>
                 <option>Sài Gòn</option>
                 <option>Đà Nẵng</option>
@@ -36,7 +36,7 @@
                 <option>Bắc Ninh</option>
             </select></div>
         <div><label>Điểm đến</label>
-            <select>
+            <select id="destination-select">
                 <option>Sapa</option>
                 <option>Đà Lạt</option>
                 <option>Phú Quốc</option>
@@ -44,9 +44,9 @@
                 <option>Vũng Tàu</option>
                 <option>Huế</option>
             </select></div>
-        <div><label>Ngày đi</label><input type="date" value="2026/03/31"></div>
+        <div><label>Ngày đi</label><input type="date" id="trip-date" value="2026-03-31"></div>
         <div><label>Hành khách</label>
-            <select>
+            <select id="passengers-select">
                 <option>1 Người</option>
                 <option>2 Người</option>
                 <option>3 Người</option>
@@ -61,7 +61,7 @@
                 <option>30 người</option>
             </select>
         </div>
-        <a href="search-results.html" class="btn-main">TÌM CHUYẾN</a>
+        <button id="search-route-btn" class="btn-main">TÌM CHUYẾN</button>
     </section>
 
     <div class="container">
